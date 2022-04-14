@@ -1,0 +1,137 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.head-product {
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Lucida Grande"
+}
+
+.filter {
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.catalog {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btn {
+    float: right;
+}
+
+.qty {
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    padding: 5px 0;
+    margin: 10px;
+    background-color: lightgreen;
+    display: block;
+    opacity: 0.8;
+    border-radius: 8px;
+    border: 1px solid black;
+    float: left;    
+    box-shadow: 0 5px #1a7940;
+}
+
+.qty:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.add {
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 10px;
+    background-color: lightgreen;
+    display: block;
+    opacity: 0.8;
+    border-radius: 8px;
+    border: 1px solid black;
+    float: left;
+    box-shadow: 0 5px #1a7940;
+}
+
+.add:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.text-qty {
+    float: left;
+}
+
+.btn:hover {
+    opacity: 1;
+    font-weight: bold;
+}
+
+.card {
+    width: 40%;
+    height: 100%;
+    border: 1px solid grey;
+    padding: 10px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-family: "Lucida Grande";
+    box-shadow: 0 0 20px rgba(0,0,0,.3);
+    border-radius: 15px;
+}
+
+.img-product {
+    width: 200px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 10px;
+    float: left;
+    transition: transform .5s ease;
+}
+
+.img-product:hover {
+    transform: scale(1.2);
+}
+
+.nama-product {
+    text-align: center;
+    font-size: 25px;
+}
+
+.desc {
+    font-size: 20px;
+    height: 200px;
+    text-align: justify;
+    padding: 5px;
+}
+
+.price {
+    padding: 0;
+    font-weight: bold;
+    font-size: 28px;
+    float: left;
+    margin: 10px;
+}
+
+.info span a {
+    color: blue;
+}
+
+.info span a:hover {
+    font-weight: bold;
+    cursor: point;
+}

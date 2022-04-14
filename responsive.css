@@ -1,0 +1,73 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .catalog {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+        margin: 10px 30px;
+        float: left;
+    }
+    .desc {
+        font-size: 20px;
+        height: 100%;
+        max-height: 200px;
+        overflow: auto;
+    }
+}
+
+/* Untuk HP */
+@media all and (max-width: 670px) {
+    .catalog, .head-product {
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+        margin: 5px;
+        height: 100%;
+        padding: 0px 10px 0px 0px;
+    }
+    .desc {
+        height: 100%;
+        max-height: 100px;
+        overflow: auto;
+        font-size: 12px;
+        text-align: start;
+    }
+
+    .img-product {
+        width: 40%;
+        margin-left: 5px;
+    }
+
+    .price {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .qty {
+        width: 25px;
+        height: 12px;
+        text-align: center;
+        padding: 5px 0;
+        font-size: 10px;
+    }
+
+    .add {
+        width: 35px;
+        height: 12px;
+        text-align: center;
+        padding: 5px 0;
+        font-size: 10px;
+    }
+
+    .text-qty {
+        font-size: 15px;
+    }
+
+    .nama-product {
+        font-size: 15px;
+    }
+}
